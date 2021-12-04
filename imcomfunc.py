@@ -18,7 +18,7 @@ def getfiles(newpath):
 def diff(image1,image2):
     difference= cv2.subtract(image1,image2)
     #print("Difference equals ",np.sum(difference))
-    result=not np.any(difference) # differewnce is all zeros it will return false
+    result=not.np.any(difference) # differewnce is all zeros it will return false
     w,h,c=difference.shape
     total_pixel_value_count=w*h*c*255  # Find the silimarity between this images %
     percentage_match=(total_pixel_value_count -np.sum(difference))/total_pixel_value_count*100

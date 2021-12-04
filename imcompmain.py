@@ -1,6 +1,5 @@
 import os
 import cv2
-import numpy as np
 from imcompfunc import getfiles, diff
 
 q=input("Search for duplicates in '1' folder, or search for copies in '2' folders - enter '1' or '2'")
