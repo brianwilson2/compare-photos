@@ -1,4 +1,5 @@
 import numpy as np
+from numpy import sum
 def mse(imageA, imageB):
 	# the 'Mean Squared Error' between the two images is the
 	# sum of the squared difference between the two images;
