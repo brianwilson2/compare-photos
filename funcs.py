@@ -1,9 +1,9 @@
 import numpy as np
 from numpy import sum
 
-def comp(imag1,imag2):
-  image2 = cv2.imread("dad3.jpg")
-  image1 = cv2.imread("dad1.jpg")
+def comp(image1,image2):
+#  image2 = cv2.imread("dad3.jpg")
+ # image1 = cv2.imread("dad1.jpg")
 
   difference = cv2.subtract(image1, image2)
 
