@@ -69,7 +69,7 @@ for file1 in files1:
     pat1=path1+"/"+file1
     pat2=path2+"/"+file2
     print (pat1+" vs "+pat2)
-    diff=mse(file1,file2) 
+    diff=comp(file1,file2) 
     print (diff)
 
 #compare the images within folders 'Brora' and 'Brora2'
