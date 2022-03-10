@@ -5,7 +5,9 @@ import tkinter as tk
 import numpy as np
 from PIL import Image
 from PIL import ImageChops
-from funcs import mse
+from funcs import comp
+#from funcs import mse
+
 #from imcompfunc import getfiles, diff
 
 #q=input("Search for duplicates in '1' folder, or search for copies in '2' folders - enter '1' or '2'")
