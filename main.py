@@ -1,6 +1,6 @@
 import os
 import os.path
-import cv2 as cv
+import cv2
 import tkinter as tk
 import numpy as np
 from PIL import Image
@@ -14,10 +14,9 @@ from funcs import mse
 #pa="c:/Users/brian/Pictures/sdcopy"
 folder1="Brora"
 folder2="Brora2"
-
 cwd = os.getcwd()
 print ("Home directory is:")
-print (cwd)##/home/runner/compare-photos
+print (cwd)  ##/home/runner/compare-photos
 path = cwd
 path1=path+"/"+folder1
 path2=path+"/"+folder2
