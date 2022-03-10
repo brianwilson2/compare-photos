@@ -11,11 +11,11 @@ def comp(imag1,imag2):
 
   if result is True:
     print("the images are the same")
-    p=True
+    p="True"
   else:
     cv2.imwrite("result.jpg", difference)
     print("the images are different")
-    p=False
+    p="False"
   return p
 
 #folder1="/home/runner/compare-photos/Brora"
